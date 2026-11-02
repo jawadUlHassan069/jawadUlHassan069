@@ -1,37 +1,68 @@
-<svg width="1000" height="260" viewBox="0 0 1000 260" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="250" viewBox="0 0 1000 250" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0f2027"/>
-      <stop offset="0.5" stop-color="#203a43"/>
-      <stop offset="1" stop-color="#2c5364"/>
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="0.55" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#ec4899"/>
     </linearGradient>
   </defs>
 
-  <rect width="1000" height="260" rx="16" fill="url(#bg)"/>
+  <rect width="1000" height="250" rx="18" fill="url(#bg)"/>
 
-  <text x="500" y="100" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">Jawad Ul Hassan</text>
-  <text x="500" y="145" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#9ecbff">Software Engineer · AI &amp; Backend</text>
+  <circle cx="90" cy="40" r="110" fill="#ffffff" opacity="0.07"/>
+  <circle cx="930" cy="230" r="140" fill="#ffffff" opacity="0.07"/>
 
-  <line x1="380" y1="170" x2="620" y2="170" stroke="#9ecbff" stroke-opacity="0.4" stroke-width="1"/>
+  <text x="500" y="85" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">Jawad Ul Hassan</text>
+  <text x="500" y="122" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#e0e7ff">Software Engineer · AI &amp; Backend</text>
 
-  <g font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="700" fill="#ffffff" text-anchor="middle">
-    <text x="330" y="212" opacity="1">Build
-      <animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.25;0.5;0.75;1" values="1;0.3;0.3;0.3;1"/>
-    </text>
-    <text x="450" y="212" opacity="0.3">Struggle
-      <animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.25;0.5;0.75;1" values="0.3;1;0.3;0.3;0.3"/>
-    </text>
-    <text x="560" y="212" opacity="0.3">Rest
-      <animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.25;0.5;0.75;1" values="0.3;0.3;1;0.3;0.3"/>
-    </text>
-    <text x="665" y="212" opacity="0.3">Repeat
-      <animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.25;0.5;0.75;1" values="0.3;0.3;0.3;1;0.3"/>
-    </text>
+  <!-- Pills (base) -->
+  <g fill="#ffffff" fill-opacity="0.18">
+    <rect x="110" y="160" width="150" height="44" rx="22"/>
+    <rect x="320" y="160" width="150" height="44" rx="22"/>
+    <rect x="530" y="160" width="150" height="44" rx="22"/>
+    <rect x="740" y="160" width="150" height="44" rx="22"/>
   </g>
 
-  <g font-family="Segoe UI, Arial, sans-serif" font-size="26" fill="#9ecbff" text-anchor="middle" opacity="0.6">
-    <text x="392" y="212">→</text>
-    <text x="508" y="212">→</text>
-    <text x="610" y="212">→</text>
+  <!-- Base labels -->
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">
+    <text x="185" y="189">Build</text>
+    <text x="395" y="189">Struggle</text>
+    <text x="605" y="189">Rest</text>
+    <text x="815" y="189">Repeat</text>
+  </g>
+
+  <!-- Arrows -->
+  <g stroke="#ffffff" stroke-opacity="0.9" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M272 182 H308 M298 174 L308 182 L298 190"/>
+    <path d="M482 182 H518 M508 174 L518 182 L508 190"/>
+    <path d="M692 182 H728 M718 174 L728 182 L718 190"/>
+  </g>
+
+  <!-- Highlight: Build -->
+  <g opacity="1">
+    <rect x="110" y="160" width="150" height="44" rx="22" fill="#ffffff"/>
+    <text x="185" y="189" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#5b21b6">Build</text>
+    <animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.22;0.27;0.97;1" values="1;1;0;0;1"/>
+  </g>
+
+  <!-- Highlight: Struggle -->
+  <g opacity="0">
+    <rect x="320" y="160" width="150" height="44" rx="22" fill="#ffffff"/>
+    <text x="395" y="189" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#5b21b6">Struggle</text>
+    <animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.22;0.27;0.47;0.52;1" values="0;0;1;1;0;0"/>
+  </g>
+
+  <!-- Highlight: Rest -->
+  <g opacity="0">
+    <rect x="530" y="160" width="150" height="44" rx="22" fill="#ffffff"/>
+    <text x="605" y="189" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#5b21b6">Rest</text>
+    <animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.47;0.52;0.72;0.77;1" values="0;0;1;1;0;0"/>
+  </g>
+
+  <!-- Highlight: Repeat -->
+  <g opacity="0">
+    <rect x="740" y="160" width="150" height="44" rx="22" fill="#ffffff"/>
+    <text x="815" y="189" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" fill="#5b21b6">Repeat</text>
+    <animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.72;0.77;0.97;1" values="0;0;1;1;0"/>
   </g>
 </svg>
