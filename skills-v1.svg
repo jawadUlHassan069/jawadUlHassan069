@@ -1,0 +1,94 @@
+<svg width="1120" height="320" viewBox="0 0 1120 320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="0.55" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1120" height="320" rx="18" fill="url(#bg)"/>
+
+  <!-- Category labels -->
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#ffffff">
+    <text x="30" y="49">Languages</text>
+    <text x="30" y="107">Backend &amp; Web</text>
+    <text x="30" y="165">Databases</text>
+    <text x="30" y="223">AI / ML</text>
+    <text x="30" y="281">Tools</text>
+  </g>
+
+  <!-- Pill backgrounds -->
+  <g fill="#ffffff" fill-opacity="0.2">
+    <!-- Row 1: 6 pills -->
+    <rect x="190" y="24" width="120" height="38" rx="19"/>
+    <rect x="320" y="24" width="120" height="38" rx="19"/>
+    <rect x="450" y="24" width="120" height="38" rx="19"/>
+    <rect x="580" y="24" width="120" height="38" rx="19"/>
+    <rect x="710" y="24" width="120" height="38" rx="19"/>
+    <rect x="840" y="24" width="120" height="38" rx="19"/>
+    <!-- Row 2: 5 pills -->
+    <rect x="190" y="82" width="120" height="38" rx="19"/>
+    <rect x="320" y="82" width="120" height="38" rx="19"/>
+    <rect x="450" y="82" width="120" height="38" rx="19"/>
+    <rect x="580" y="82" width="120" height="38" rx="19"/>
+    <rect x="710" y="82" width="120" height="38" rx="19"/>
+    <!-- Row 3: 4 pills -->
+    <rect x="190" y="140" width="120" height="38" rx="19"/>
+    <rect x="320" y="140" width="120" height="38" rx="19"/>
+    <rect x="450" y="140" width="120" height="38" rx="19"/>
+    <rect x="580" y="140" width="120" height="38" rx="19"/>
+    <!-- Row 4: 6 pills -->
+    <rect x="190" y="198" width="120" height="38" rx="19"/>
+    <rect x="320" y="198" width="120" height="38" rx="19"/>
+    <rect x="450" y="198" width="120" height="38" rx="19"/>
+    <rect x="580" y="198" width="120" height="38" rx="19"/>
+    <rect x="710" y="198" width="120" height="38" rx="19"/>
+    <rect x="840" y="198" width="120" height="38" rx="19"/>
+    <!-- Row 5: 7 pills -->
+    <rect x="190" y="256" width="120" height="38" rx="19"/>
+    <rect x="320" y="256" width="120" height="38" rx="19"/>
+    <rect x="450" y="256" width="120" height="38" rx="19"/>
+    <rect x="580" y="256" width="120" height="38" rx="19"/>
+    <rect x="710" y="256" width="120" height="38" rx="19"/>
+    <rect x="840" y="256" width="120" height="38" rx="19"/>
+    <rect x="970" y="256" width="120" height="38" rx="19"/>
+  </g>
+
+  <!-- Pill labels -->
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="600" fill="#ffffff" text-anchor="middle">
+    <!-- Languages -->
+    <text x="250" y="49">Python</text>
+    <text x="380" y="49">JavaScript</text>
+    <text x="510" y="49">C#</text>
+    <text x="640" y="49">SQL</text>
+    <text x="770" y="49">HTML</text>
+    <text x="900" y="49">CSS</text>
+    <!-- Backend & Web -->
+    <text x="250" y="107">Django</text>
+    <text x="380" y="107">Django REST</text>
+    <text x="510" y="107">React</text>
+    <text x="640" y="107">.NET</text>
+    <text x="770" y="107">JWT</text>
+    <!-- Databases -->
+    <text x="250" y="165">PostgreSQL</text>
+    <text x="380" y="165">MySQL</text>
+    <text x="510" y="165">SQL Server</text>
+    <text x="640" y="165">ChromaDB</text>
+    <!-- AI / ML -->
+    <text x="250" y="223">PyTorch</text>
+    <text x="380" y="223">Hugging Face</text>
+    <text x="510" y="223">scikit-learn</text>
+    <text x="640" y="223">Pandas</text>
+    <text x="770" y="223">NumPy</text>
+    <text x="900" y="223">Groq API</text>
+    <!-- Tools -->
+    <text x="250" y="281">Git</text>
+    <text x="380" y="281">GitHub</text>
+    <text x="510" y="281">Postman</text>
+    <text x="640" y="281">Jira</text>
+    <text x="770" y="281">Sentry</text>
+    <text x="900" y="281">Playwright</text>
+    <text x="1030" y="281">Figma</text>
+  </g>
+</svg>
