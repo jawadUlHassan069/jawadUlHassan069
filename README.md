@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="header.svg" alt="Jawad Ul Hassan: Build, Struggle, Rest, Repeat" width="100%" />
+<img src="header-v2.svg" alt="Jawad Ul Hassan: Build, Struggle, Rest, Repeat" width="100%" />
 
 <br/>
 
